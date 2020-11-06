@@ -9,8 +9,8 @@ const responseAPI = responseHeadless;
 
   const data=responseHeadless; 
     console.log(data);
-    var k=0; 
-    Console.log(k);
+    var k=5; 
+    console.log(k);
 
   function reqListener(data) {
     d = JSON.parse(this.responseText);
