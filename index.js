@@ -5,10 +5,36 @@ const responseHeadless = require('./responseHeadless.json')
 // HERE ⤵
 const responseAPI = responseHeadless;
    //sanpshotObj=responseAPI('title','items'.'sys'.'type',) 
-   import data from './data/responseHeadless.json';
+   //const element = <h1>Hello, world</h1>;
+
+  const data=responseHeadless; 
+    console.log(data);
+    var k=0; 
+    Console.log(k);
+
+  function reqListener(data) {
+    d = JSON.parse(this.responseText);
+    console.log(d);
+}
+
+ //  import data from './responseHeadless.json';
+  /*
    const newdata=data.map((data)=> {
      return (
-       <Card key = {data.id}
+       <Card key = {data.id}>|
+         <Card.Body>
+         <Card.Title> {data.name}</Card.Title>
+         <Card.Text>
+                 {data.desc}
+         </Card.Text>
+
+         <a className="btn-primary"
+         href={data.url}
+         target="_blank">
+         Download
+         </a>
+      </Card.Body>
+      </Card>
      )
    }
    )
@@ -19,3 +45,5 @@ const { assert } = require('chai')
 const responseSnapshot = require('./snapshot.json')
 assert.deepEqual(responseAPI, responseSnapshot, 'Response doesn\'t match snapshot')
 console.log('It works!')
+
+*/
