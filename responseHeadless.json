@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "sys": {
+      "id": "dhj3q2dfjkxa0",
+      "type": "meta"
+    },
+    "fields": [{ "title": "Landing page" }]
+  },
+  "items": [
+    {
+      "sys": {
+        "id": "dholfjwe3dsa1",
+        "type": "Headline"
+      },
+      "fields": {
+        "content": "Welcome to our landing page"
+      }
+    },
+    {
+      "sys": {
+        "id": "dh4cvlffptxa2",
+        "type": "Block"
+      },
+      "fields": {
+        "content": "Happy to see you here. This is just a simple test page."
+      }
+    },
+    {
+      "sys": {
+        "id": "dhjhasdfjkxa3",
+        "type": "Image"
+      },
+      "fields": {
+        "src": "http://",
+        "alt": "An image showing something",
+        "desc": "This is basically just an image"
+      }
+    },
+    {
+      "sys": {
+        "id": "dhjasdfjkxa4",
+        "type": "Block"
+      },
+      "fields": {
+        "content": "Thank you for being here. See you soon!"
+      }
+    }
+  ]
+}

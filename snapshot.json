@@ -1,0 +1,23 @@
+{
+  "title": "Landing page",
+  "items": [
+    {
+      "type": "Headline",
+      "content": "Welcome to our landing page"
+    },
+    {
+      "type": "Block",
+      "content": "Happy to see you here. This is just a simple test page."
+    },
+    {
+      "type": "Image",
+      "src": "http://",
+      "alt": "An image showing something",
+      "desc": "This is basically just an image"
+    },
+    {
+      "type": "Block",
+      "content": "Thank you for being here. See you soon!"
+    }
+  ]
+}
